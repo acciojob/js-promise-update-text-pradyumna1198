@@ -6,7 +6,7 @@ function Hello() {
 		},1000);
 	});
 }
-const outElement = document.getElementById('output');
+const outputElement = document.getElementById('output');
 
 Hello()
 .then((message)=> {
